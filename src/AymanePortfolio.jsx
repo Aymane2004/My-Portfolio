@@ -172,7 +172,7 @@ export default function Portfolio() {
                 onMouseLeave={e => e.currentTarget.style.background = G}
               >CONTACT ME</a>
 
-              <a href="https://github.com/Aymane2004" target="_blank" style={{
+              <a href="https://github.com/Aymane2004" target="_blank" rel="noreferrer" style={{
                 ...mono, fontSize: "12px", border: `0.5px solid ${BORDER}`,
                 color: MUTED, padding: "12px 28px", textDecoration: "none",
                 letterSpacing: "0.12em", transition: "all 0.2s",
